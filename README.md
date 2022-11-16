@@ -7,3 +7,4 @@
 - Necessario implementar a função export() para gravar a busca feita no atlas em excel e csv.
 - Necessario melhorar a função busca_ativos() para melhorar a qualidade da pesquisa bem como o calculo %.
 - Necessario melhorar a função busca_res_ano() para buscar e retornar empresas pelo ano.
+- Necessario implementar um Cmake ou Shell para rodar os dois scripts em sequencia, primeiro o C depois o Py.
