@@ -9,7 +9,7 @@ import pymongo
 arquivo = "./dataOut/data_001.csv"
 
 # CONEXCAO COM O DB
-client = pymongo.MongoClient("mongodb+srv://walacysilva:ZNpBE7zzF2bHYg7@cluster0.orogg7m.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://<username>:<password>@<seu_cluster>.orogg7m.mongodb.net/?retryWrites=true&w=majority")
 db = client.dataTest
 data_estab = db["estab"]
 
@@ -86,8 +86,6 @@ def manager(arquivo):
             break
 
     arch.close()
-
-    #return data_list
 
 # BUSCANDO EMPRESAS COM SITUACAO 02(ATIVAS)
 # E CALCULANDO A  % DO TOTAL NO ATLAS.
