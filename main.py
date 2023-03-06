@@ -9,7 +9,7 @@ import pymongo
 arquivo = "./dataOut/data_001.csv"
 
 # CONEXCAO COM O DB
-client = pymongo.MongoClient("mongodb+srv://<username>:<password>@<seu_cluster>.<sua_url>")
+client = pymongo.MongoClient("")
 db = client.dataTest
 data_estab = db["estab"]
 
